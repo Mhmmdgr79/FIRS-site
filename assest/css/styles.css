@@ -1,0 +1,232 @@
+/* social info menu slider */
+@font-face {
+  font-family: info;
+  src: url(/assest/webfonts/fa-v4compatibility.ttf);
+}
+.info {
+  font-family: info !important;
+  font-size: x-small;
+ max-width: 75%;
+   display: flex;
+   margin: auto;
+}
+.emailaddress {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 40%;
+  gap: 10px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.emailaddress .emailinfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.emailaddress .localaddress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.info .socialicion{
+    gap: 10px;
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+/* social info menu slider */
+/* main menu styles*/
+@font-face {
+  font-family: logo;
+  src: url(/assest/webfonts/fa-regular-400.ttf);
+}
+.mainmenu{
+  display: flex;
+  max-width: 75%;
+  margin: auto;
+align-items: center;
+gap: 50px;
+box-sizing: border-box;
+flex-wrap: wrap;
+}
+.menu ul{
+  font-family: info;
+  display: flex;
+  gap: 52px;
+  list-style: none;
+  cursor:pointer;
+  font-size: smaller;
+  color: rgb(124, 124, 124);
+}
+.active{
+  color: orangered;
+}
+.logo{
+  cursor: none;
+  font-family: logo;
+  width: 15%;
+  
+}
+.btnmenu{
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: yellow;
+}
+/* main menu styles*/
+/*slider*/
+@font-face {
+  font-family: slider;
+  src: url(/assest/webfonts/fa-v4compatibility.woff2);
+}
+.slider{
+  position: relative;
+  box-sizing: border-box;
+  
+}
+.slider img{
+  width: 100%;
+  height: 420px;
+}
+.slidertext{
+  position: absolute;
+  content: "";
+  left: 20%;
+  top: 20%;
+}
+.sliderheader{
+font-family: slider !important;
+  background-color: aliceblue;
+  width: 120px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sliderheader span:nth-child(2){
+  color: orangered;
+}
+.slidertxtinfo{
+  font-family: slider;
+  color: whitesmoke;
+  font-size: 50px;
+  font-variant: small-caps;
+  margin-top: -50px;
+}
+.sldiderrtarrow{
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: darkgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 10px;
+  top: 50%;
+  border-radius: 50%;
+  font-weight: bolder;
+
+}
+.sliderlfarrow{
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: darkgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 10px;
+  top: 50%;
+  border-radius: 50%;
+  font-weight: bolder;
+
+}
+.slidnumcircle{
+  position: absolute;
+  content: "";
+  display: flex;
+  gap: 10px;
+  bottom: 10%;
+  left: 20%;
+}
+.slidecrc{
+  background-color: aliceblue;
+  width:10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.activecrc{
+  background-color: orangered;
+}
+/* future section*/
+@font-face {
+  font-family: future;
+  src: url(/assest/webfonts/fa-v4compatibility.woff2);
+}
+.futuresec{
+  width: 100%;
+}
+.futurepic img{
+  border-radius: 7%;
+  box-shadow: 5px 7px 10px 1px rgba(0, 0, 0, 0.322);
+}
+.futureinfo{
+  text-overflow: ellipsis;
+}
+.futurediv{
+ display: flex;
+ margin: auto;
+ justify-content: center;
+ align-items: center;
+ gap: 20px;
+padding: 90px;
+box-sizing: content-box;
+
+}
+.futureheader p:nth-child(1){
+color: red;
+border-left:2px red solid;
+padding: 5px;
+font-size: x-small;
+}
+.futureheader p:nth-child(2){
+  font-size: 30px;
+  font-weight: 900;
+  font-family: future;
+}
+.fiitemdiv{
+  border-radius: 7%;
+  box-shadow: 5px 7px 10px 3px rgba(0, 0, 0, 0.322);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.fiitems{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 15px;
+  width: 17rem;
+
+}
+.fiitems ~ hr{
+  width: 60%;
+  opacity: 40%;
+  border-radius: 20%;
+}
+.fiitems  img{
+  width: 40px;
+  height: 40px;
+  margin-top: 60%;
+}
