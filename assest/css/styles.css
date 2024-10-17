@@ -234,6 +234,8 @@ font-size: x-small;
 .videotitle{
 margin-top: 70px;
 font-family: future;
+width: 60%;
+position: relative;
 }
 .vidheader{
   text-align: center;
@@ -245,4 +247,15 @@ font-family: future;
 text-align: center;
 font-size: 30px;
 font-weight: bolder;
+}
+.vidvideo{
+  position: absolute;
+content: " ";
+width: 100%;
+height: 90%;
+background-color: cadetblue;
+display: flex;
+justify-content: center;
+border-radius: 10px;
+background-image: url(../images/video-frame.jpg);
 }
