@@ -230,3 +230,19 @@ font-size: x-small;
   height: 40px;
   margin-top: 60%;
 }
+/* video view*/
+.videotitle{
+margin-top: 70px;
+font-family: future;
+}
+.vidheader{
+  text-align: center;
+  color: orangered;
+  font-size: larger;
+  font-weight: bolder;
+}
+.vidtext{
+text-align: center;
+font-size: 30px;
+font-weight: bolder;
+}
